@@ -36,6 +36,8 @@ namespace demo_dotnet_webapp
             {
                 app.UseExceptionHandler("/Error");
             }
+            
+            app.UseHttpsRedirection();
 
             app.UseStaticFiles();
 
